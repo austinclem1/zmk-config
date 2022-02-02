@@ -93,17 +93,17 @@
         left_layer {
             bindings = <
     &kp NUM_1 &kp NUM_2 &kp NUM_3 &kp NUM_4 &kp NUM_5         &kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0
-    &kp TAB   &kp TILDE &kp FSLH  &kp SCLN  &kp BSLH          &kp MINUS &kp EQL   &kp LBKT  &kp RBKT  &kp DEL
-    &kp ESC   &kp TILDE &kp BSLH  &kp HASH  &kp TILDE2        &kp MINUS &kp GRAVE &kp LBKT  &kp RBKT  &kp ENTER
-                                  &mo 1     &kp LGUI          &kp SPC   &mo 2 
+    &kp TAB   &kp TILDE &kp FSLH  &kp SCLN  &kp GRAVE         &kp EQL   &kp MINUS &kp LBKT  &kp RBKT  &kp DEL
+    &kp ESC   &kp TILDE &kp BSLH  &kp COLN  &kp PIPE          &kp PLUS  &kp UNDER &kp LBKT  &kp RBKT  &kp ENTER
+                                  &mo 1     &kp LCTL          &kp SPC   &mo 2 
             >;
         };
 
         right_layer {
             bindings = <
     &kp BANG  &kp ATSN  &kp HASH  &kp DLLR  &kp PRCT          &kp CRRT  &kp AMPS  &kp ASTRK &kp LPRN  &kp RPRN
-    &kp HASH  &kp GRAVE &kp QMARK &kp COLN  &kp PIPE          &kp UNDER &kp PLUS  &kp LBRC  &kp RBRC  &kp BKSP
-    &kp LSFT  &kp KPLS  &kp LBKT  &kp RBKT  &kp BSLH          &kp UNDER &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT
+    &kp HASH  &kp GRAVE &kp QMARK &kp COLN  &kp PIPE          &kp PLUS  &kp UNDER &kp LBRC  &kp RBRC  &kp BKSP
+    &kp LSFT  &kp KPLS  &kp LBKT  &kp RBKT  &kp BSLH          &kp EQL   &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT
                                   &mo 3     &kp LCTL          &kp SPC   &mo 2
             >;
         };
